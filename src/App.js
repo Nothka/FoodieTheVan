@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import Home from './components/pages/Home';
+import Contact from './components/pages/Contact';
+import Menu from './components/pages/Menu';
+import CookieConsent from "react-cookie-consent";
+
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <>
+      <Router>
+        <Navbar />
+        <ScrollToTop />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/menu' element={<Menu />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+      </Router>
+      <CookieConsent expires={999}>
+        Our website employs cookies to improve your browsing experience. By continuing to use our website,
+        you consent to the utilization of cookies as described in our{" "}
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+          href="https://commission.europa.eu/cookies-policy_en"
+          className="cookie">Cookie Policy
         </a>
-      </header>
-    </div>
+      </CookieConsent>
+    </>
   );
 }
 

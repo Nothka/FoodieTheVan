@@ -25,7 +25,7 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/FoodieTheVan' element={<Home />} />
           <Route path='/menu' element={<Menu />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>

@@ -25,9 +25,9 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/menu' element={<Menu />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='FoodieTheVan/' element={<Home />} />
+          <Route path='FoodieTheVan/menu' element={<Menu />} />
+          <Route path='FoodieTheVan/contact' element={<Contact />} />
         </Routes>
       </Router>
       <CookieConsent expires={999}>

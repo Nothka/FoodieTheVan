@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FoodieTheVan/static/css/main.f165f18e.css",
-    "main.js": "/FoodieTheVan/static/js/main.f9777f44.js",
+    "main.js": "/FoodieTheVan/static/js/main.0a64ca4b.js",
     "static/media/foodie-logo.png": "/FoodieTheVan/static/media/foodie-logo.3cb7326315bce7d00e0b.png",
     "index.html": "/FoodieTheVan/index.html",
     "main.f165f18e.css.map": "/FoodieTheVan/static/css/main.f165f18e.css.map",
-    "main.f9777f44.js.map": "/FoodieTheVan/static/js/main.f9777f44.js.map"
+    "main.0a64ca4b.js.map": "/FoodieTheVan/static/js/main.0a64ca4b.js.map"
   },
   "entrypoints": [
     "static/css/main.f165f18e.css",
-    "static/js/main.f9777f44.js"
+    "static/js/main.0a64ca4b.js"
   ]
 }

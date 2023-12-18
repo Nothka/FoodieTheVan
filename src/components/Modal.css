@@ -18,7 +18,7 @@
     background: #fff;
     justify-content: center;
     align-items: center;
-    max-width: 1200px; /* Adjust the maximum width of the modal */
+    max-width: 600px; /* Adjust the maximum width of the modal */
     width: 100%;
     padding: 40px; /* Adjust padding to increase the height */
     box-sizing: border-box;
@@ -121,6 +121,39 @@
       .h2{
         font-size: 0.3em;
         padding: 1rem 0;
+      }
+
+  }
+
+
+  @media screen and (max-width: 780px) {
+
+
+    .modalContainer {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        max-width: 770px; /* Adjust the maximum width of the modal */
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .content{
+        font-size: 0.7em;
+      }
+      
+     
+    
+      p{
+        font-size: 1em;
+
+      }
+      .h2{
+        font-size: 0.6em;
+        padding: 2rem 0;
       }
 
   }

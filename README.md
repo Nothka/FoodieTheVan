@@ -1,3 +1,10 @@
+# Dear User
+When I made this code, only God and I knew how it worked, please have no expectations. If this code still runs, it is only God's miracle.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

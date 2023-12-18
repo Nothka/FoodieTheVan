@@ -493,7 +493,7 @@ const Menu = () => {
 
   const items = [
     {
-              src: 'images/cheeseburger.jpeg',
+              src: '/FoodieTheVan/images/cheeseburger.jpeg',
               text: 'Indulge in perfection, savor every bite, our signature Cheeseburger is a masterpiece that turns hunger into a delight',
               label: '28 LEI',
               category: 'Burger',
@@ -504,7 +504,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/chicken-salad.jpeg',
+              src: '/FoodieTheVan/images/chicken-salad.jpeg',
               text: 'Elevate your palate with our Chicken Salad – a fresh, vibrant medley of flavors that transforms every bite into a wholesome and delicious experience',
               label: '33 LEI',
               category: 'Salad',
@@ -515,7 +515,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/burger-3.jpeg',
+              src: '/FoodieTheVan/images/burger-3.jpeg',
               text: 'Savor the crunch and delight in every bite with our Crispy Burger – a symphony of crispy perfection that takes your taste buds on a tantalizing journey',
               label: '31 LEI',
               category: 'Burger',
@@ -526,7 +526,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/burger-4.jpeg',
+              src: '/FoodieTheVan/images/burger-4.jpeg',
               text: 'Embark on a gourmet adventure with our Foodie Burger – a symphony of flavors crafted to satisfy the cravings of every true food enthusiast',
               label: '33 LEI',
               category: 'Burger',
@@ -537,7 +537,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/crispy-chicken-tortilla.jpeg',
+              src: '/FoodieTheVan/images/crispy-chicken-tortilla.jpeg',
               text: 'Crunch into culinary bliss with our Chicken Crispy Tortilla – where savory meets crunchy in a symphony of flavors that will have your taste buds dancing with delight',
               label: '31 LEI',
               category: 'Tortilla',
@@ -548,7 +548,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/special-grilled-cheese.jpeg',
+              src: '/FoodieTheVan/images/special-grilled-cheese.jpeg',
               text: 'Embrace the extraordinary with our Special Grilled Cheese – a melt-in-your-mouth masterpiece that turns every bite into a celebration of gooey, savory perfection',
               label: '22 LEI',
               category: 'Burger',
@@ -559,7 +559,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/loaded-fries.jpeg',
+              src: '/FoodieTheVan/images/loaded-fries.jpeg',
               text: 'Indulge in pure satisfaction with our Loaded Fries – a flavor-packed fiesta that turns ordinary fries into an extraordinary experience, loaded with savory delights in every crispy bite',
               label: '31 LEI',
               category: 'Fries&Chicken',
@@ -570,7 +570,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/halloumi-salad.jpeg',
+              src: '/FoodieTheVan/images/halloumi-salad.jpeg',
               text: 'Savor the crunch and delight in every bite with our Crispy Burger – a symphony of crispy perfection that takes your taste buds on a tantalizing journey',
               label: '31 LEI',
               category: 'Salad',
@@ -581,7 +581,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/egg-toast-sandwich.jpeg',
+              src: '/FoodieTheVan/images/egg-toast-sandwich.jpeg',
               text: 'Embark on a gourmet adventure with our Foodie Burger – a symphony of flavors crafted to satisfy the cravings of every true food enthusiast',
               label: '24 LEI',
               category: 'Sandwich',
@@ -592,7 +592,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/pulled-pork-tortilla.jpeg',
+              src: '/FoodieTheVan/images/pulled-pork-tortilla.jpeg',
               text: 'Satisfy your cravings with our Pulled Pork Tortilla – a savory sensation wrapped in perfection, where tender pulled pork meets the rich flavors of a tortilla for a taste adventure like no other',
               label: '34 LEI',
               category: 'Tortilla',
@@ -603,7 +603,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/chicken-breast-tortilla.jpeg',
+              src: '/FoodieTheVan/images/chicken-breast-tortilla.jpeg',
               text: 'Delight in culinary elegance with our Grilled Chicken Tortilla – a harmonious fusion of succulent chicken and savory delights, wrapped in a tortilla for a taste that transcends the ordinary',
               label: '31 LEI',
               category: 'Tortilla',
@@ -614,7 +614,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/pulled-pork-sandwich.jpeg',
+              src: '/FoodieTheVan/images/pulled-pork-sandwich.jpeg',
               text: 'Embark on a flavor journey with our Pulled Pork Sandwich – a symphony of slow-cooked perfection, where tender pulled pork meets soft, pillowy bread, creating a sandwich experience that is truly exceptional',
               label: '32LEI',
               category: 'Sandwich',
@@ -625,7 +625,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/crispy-menu.jpeg',
+              src: '/FoodieTheVan/images/crispy-menu.jpeg',
               text: 'Crispy cravings meet culinary innovation in our Crispy Menu – a tantalizing selection that promises to elevate your taste experience with a delightful crunch in every bite. Explore crispy perfection like never before',
               label: '31 LEI',
               category: 'Fries&Chicken',
@@ -636,7 +636,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/blue-cheese-burger.jpeg',
+              src: '/FoodieTheVan/images/blue-cheese-burger.jpeg',
               text: 'Embark on a gourmet adventure with our Foodie Burger – a symphony of flavors crafted to satisfy the cravings of every true food enthusiast',
               label: '32 LEI',
               category: 'Burger',
@@ -647,7 +647,7 @@ const Menu = () => {
               },
             },
             {
-              src: 'images/nutella-banana-pancake.jpeg',
+              src: '/FoodieTheVan/images/nutella-banana-pancake.jpeg',
               text: 'Awaken your taste buds with our Nutella Banana Biscuit Pancake – a breakfast sensation that brings together the richness of Nutella, bananas, and the delightful crunch of biscuits.',
               label: 'Random Price',
               category: 'Pancakes',

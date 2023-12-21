@@ -85,5 +85,21 @@
   
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 388px) {
+
+
+    .maps > iframe{
+      width: 250px;
+    }
+
+  }
+
+   
+  @media screen and (max-width: 296px) {
+
+
+    .maps > iframe{
+      width: 220px;
+    }
+
   }

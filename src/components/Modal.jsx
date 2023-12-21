@@ -25,7 +25,7 @@ const Modal = ({ open, onClose, image, title, details }) => {
             <p>Allergies: {details?.allergies || 'None'}</p>
             <p>{details?.description || 'No description available'}</p>
           </div>
-          <Rating></Rating>
+          <Rating name="size-small" size="small"></Rating>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@
 
  .hero-container{
 
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -77,4 +77,49 @@
     .btn {
         width: 100%;
     }
+
+
+   
+ }
+
+
+
+ @media screen and (max-width:468px){
+
+   .hero-container >h1 {
+
+      
+      font-size: 30px;
+      margin-top: -15px;
+   }
+
+   .hero-container > p {
+      font-size: 20px;
+   }
+
+   .hero-btns .btn{
+      font-size: 0.7em;
+   }
+
+   .hero-container{
+      height: 90vh;
+    }
+
+ }
+
+
+ @media screen and (min-height:800px){
+
+   .hero-container{
+      height: 93vh !important;
+    }
+
+ }
+
+ @media screen and (min-height:1000px){
+
+   .hero-container{
+      height: 96vh !important;
+    }
+
  }

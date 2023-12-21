@@ -17,7 +17,7 @@ function Cards() {
           <ul className='cards__items'>
             
             <CardItem
-            src='/FoodieTheVan/images/cheeseburger.jpeg'
+            src='/images/cheeseburger.jpeg'
             text='Indulge in perfection, savor every bite, our signature Cheeseburger is a masterpiece that turns hunger into a delight'
             label='NEW'
             category='New'
@@ -30,7 +30,7 @@ function Cards() {
             />
 
             <CardItem
-              src='/FoodieTheVan/images/chicken-salad.jpeg'
+              src='/images/chicken-salad.jpeg'
               text='Elevate your palate with our Chicken Salad – a fresh, vibrant medley of flavors that transforms every bite into a wholesome and delicious experience'
               label='NEW'
               path='/destinations'
@@ -44,7 +44,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='/FoodieTheVan/images/burger-3.jpeg'
+              src='/images/burger-3.jpeg'
               text='Savor the crunch and delight in every bite with our Crispy Burger – a symphony of crispy perfection that takes your taste buds on a tantalizing journey'
               label='BEST SELLING'
               path='/destinations'
@@ -56,7 +56,7 @@ function Cards() {
                 }}
             />
             <CardItem
-              src='/FoodieTheVan/images/burger-4.jpeg'
+              src='/images/burger-4.jpeg'
               text='Embark on a gourmet adventure with our Foodie Burger – a symphony of flavors crafted to satisfy the cravings of every true food enthusiast'
               label='BEST SELLING'
               path='/products'
@@ -68,7 +68,7 @@ function Cards() {
                 }}
             />
             <CardItem
-              src='/FoodieTheVan/images/crispy-chicken-tortilla.jpeg'
+              src='/images/crispy-chicken-tortilla.jpeg'
               text='Crunch into culinary bliss with our Chicken Crispy Tortilla – where savory meets crunchy in a symphony of flavors that will have your taste buds dancing with delight'
               label='BEST SELLING'
               path='/sign-up'

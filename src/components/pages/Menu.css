@@ -56,4 +56,19 @@
     }
 
 
+    .cards__item__text{
+      font-size: 13px ;
+    }
+
+
   }
+/* 
+
+  @media only screen and (max-width: 768px) {
+
+
+    .cards__items{
+      width: 75%;
+      margin: auto;
+    }
+  } */

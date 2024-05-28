@@ -1,35 +1,49 @@
-// Modal.jsx
-
-import React from 'react';
-import './Modal.css';
+import * as React from 'react';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { CardActionArea } from '@mui/material';
 import Rating from './Rating';
+import './Modal.css'; // Custom CSS for overlay
 
-const Modal = ({ open, onClose, image, title, details }) => {
+export default function Modal({ open, onClose, image, title, details }) {
   if (!open) return null;
 
   return (
-    <div onClick={onClose} className='overlay'>
+    <div onClick={onClose} className="overlay">
       <div
         onClick={(e) => {
           e.stopPropagation();
         }}
-        className='modalContainer'
+        className="cardContainer"
       >
-        <div className='modalLeft'>
-          <img src={image} alt={title} className='modalImage' />
-        </div>
-        <div className='modalRight'>
-          <div className='content'>
-            <h2>{title}</h2>
-            <p>Kcal: {details?.kcal || 'N/A'}</p>
-            <p>Allergies: {details?.allergies || 'None'}</p>
-            <p>{details?.description || 'No description available'}</p>
-          </div>
-          <Rating name="size-small" size="small"></Rating>
-        </div>
+        <Card sx={{ maxWidth: 600 }}>
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              height="200"
+              image={image}
+              alt={title}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div" className="modalTitle">
+                {title}
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Kcal: {details?.kcal || 'N/A'}
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Allergies: {details?.allergies || 'None'}
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                {details?.description || 'No description available'}
+              </Typography>
+              <Rating name="size-small" size="small" />
+            </CardContent>
+          </CardActionArea>
+        </Card>
       </div>
     </div>
   );
-};
-
-export default Modal;
+}

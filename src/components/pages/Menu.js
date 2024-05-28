@@ -269,7 +269,10 @@ const Menu = () => {
 
   const updateItemsPerPage = () => {
     const width = window.innerWidth;
-    if (width <= 1024 && width >= 768) {
+    if(width <=1342 && width >= 1024){
+      setItemsPerPage(4);
+    }
+    else if (width <= 1024 && width >= 768) {
       setItemsPerPage(3);
     } else if (width <=768 && width >= 574) {
       setItemsPerPage(2);
@@ -304,7 +307,7 @@ const Menu = () => {
                   label: '28 LEI',
                   category: 'Burger',
                   details: {
-                    kcal: 500,
+                    kcal: 820,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -315,7 +318,7 @@ const Menu = () => {
                   label: '33 LEI',
                   category: 'Salad',
                   details: {
-                    kcal: 500,
+                    kcal: 700,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -326,7 +329,7 @@ const Menu = () => {
                   label: '31 LEI',
                   category: 'Burger',
                   details: {
-                    kcal: 500,
+                    kcal: 604,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -337,7 +340,7 @@ const Menu = () => {
                   label: '33 LEI',
                   category: 'Burger',
                   details: {
-                    kcal: 500,
+                    kcal: 721,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -348,7 +351,7 @@ const Menu = () => {
                   label: '31 LEI',
                   category: 'Tortilla',
                   details: {
-                    kcal: 500,
+                    kcal: 520,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -359,7 +362,7 @@ const Menu = () => {
                   label: '22 LEI',
                   category: 'Burger',
                   details: {
-                    kcal: 500,
+                    kcal: 810,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -370,7 +373,7 @@ const Menu = () => {
                   label: '31 LEI',
                   category: 'Fries&Chicken',
                   details: {
-                    kcal: 500,
+                    kcal: 530,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -381,7 +384,7 @@ const Menu = () => {
                   label: '31 LEI',
                   category: 'Salad',
                   details: {
-                    kcal: 500,
+                    kcal: 553,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -392,7 +395,7 @@ const Menu = () => {
                   label: '24 LEI',
                   category: 'Sandwich',
                   details: {
-                    kcal: 500,
+                    kcal: 612,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -403,7 +406,7 @@ const Menu = () => {
                   label: '34 LEI',
                   category: 'Tortilla',
                   details: {
-                    kcal: 500,
+                    kcal: 345,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -414,7 +417,7 @@ const Menu = () => {
                   label: '31 LEI',
                   category: 'Tortilla',
                   details: {
-                    kcal: 500,
+                    kcal: 532,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -425,7 +428,7 @@ const Menu = () => {
                   label: '32LEI',
                   category: 'Sandwich',
                   details: {
-                    kcal: 500,
+                    kcal: 802,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -436,7 +439,7 @@ const Menu = () => {
                   label: '31 LEI',
                   category: 'Fries&Chicken',
                   details: {
-                    kcal: 500,
+                    kcal: 445,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },
@@ -447,7 +450,7 @@ const Menu = () => {
                   label: '32 LEI',
                   category: 'Burger',
                   details: {
-                    kcal: 500,
+                    kcal: 532,
                     allergies: 'all',
                     description: 'Delicious cheeseburger description.',
                   },

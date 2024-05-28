@@ -5,6 +5,7 @@
   
   h1 {
     text-align: center;
+    padding: 2rem;
   }
   
   .cards__container {
@@ -115,9 +116,14 @@
 }
 
 .news-padding{
-  padding: 1rem;
+  padding: 2rem;
   width: 25rem;
   height: 25rem;
+}
+
+.News-Text{
+  text-align: center;
+  font-size: 1.2em;
 }
 
 
@@ -174,7 +180,7 @@
       margin-left: 10px;
       padding: 6px 8px;
       max-width: calc((100%) - 60px);
-      font-size: 22px;
+      font-size: 17px;
       font-weight: 700;
       color: #fff;
       background-color: #1f98f4;
@@ -184,6 +190,81 @@
   
 
   }
+
+
+  @media only screen and (min-width: 970px) and (orientation:landscape){
+    .news-padding{
+      width: 18rem;
+      height: 39rem;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 970px) and (min-width: 890px) and (orientation:landscape){
+    .news-padding{
+      width: 17rem;
+      height: 38rem;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 890px) and (min-width: 600px) and (orientation:landscape){
+    .news-padding{
+      width: 13rem;
+      height: 35rem;
+      padding: 1rem;
+    }
+
+  }
+
+
+
+  @media only screen and (max-width: 930px) and (min-width: 300px) and (orientation:landscape){
+    .cards__items {
+      display: flex;
+      
+    }
+
+    .cards__item__text{
+      font-size: 15px;
+      line-height: normal;
+      
+    }
+
+    .cards__item__info{
+      padding: 15px 10px 12px;
+    }
+
+    .cards__item__pic-wrap::after {
+      content: attr(data-category);
+      position: absolute;
+      bottom: 0;
+      margin-left: 10px;
+      padding: 6px 8px;
+      max-width: calc((100%) - 60px);
+      font-size: 9px !important;
+      font-weight: 700;
+      color: #fff;
+      background-color: #1f98f4;
+      box-sizing: border-box;
+    }
+
+   
+  }
+
+  @media only screen and (max-width: 1324px) and (min-width: 930px) and (orientation:landscape){
+    .cards__items {
+      display: flex;
+      
+    }
+  }
+
+
+
+
+
 
   @media only screen and (max-width: 1024px) {
     .cards__item__pic-wrap::after {
@@ -214,6 +295,7 @@
       overflow: hidden;
       text-decoration: none;
     }
+  
   }
 
 
@@ -230,6 +312,10 @@
       color: #fff;
       background-color: #1f98f4;
       box-sizing: border-box;
+    }
+
+    .cards h1{
+      font-size: 1.5em;
     }
  
   }
@@ -262,7 +348,9 @@
       overflow: hidden;
       text-decoration: none;
     }
-    
+    .cards h1{
+      font-size: 1.3em;
+    }
 
   }
 
@@ -272,9 +360,11 @@
 
     .news-padding{
 
-      width: 16rem;
-      height: 16rem;
+      width: 19rem;
+      height: 19rem;
+      padding: 2rem;
     }
 
+  
 
   }

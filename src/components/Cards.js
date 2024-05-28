@@ -5,13 +5,8 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-        <div className='News'>
-        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02SHrNksSCfPudAbc3hPjG2aay1N9QKTn3XcmzmSQ48qSFCQA1KTJaM6JMB6qBReyil%26id%3D100075875232574&show_text=true&width=500"  frameBorder="0" allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" className='news-padding' title='news-1'></iframe>
-        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02rFDtoDB1Ntjg5Ad5LfDHMuPkc9gGpEMDukBenKK5t9cMRoee8NFBtUaQzu32GAGil%26id%3D100075875232574&show_text=true&width=500"   frameBorder="0" allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" className='news-padding' title='news-2'></iframe>
-        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0Pu3ggW4p8jujrjJFskWusaBa89ZTXTAjBR3n8Y4GVsqaKWHzdSQacZwaHdZqUsS4l%26id%3D100075875232574&show_text=true&width=500"  frameBorder="0" allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" className='news-padding' title='news-3'></iframe>
 
-        </div>
-      <h1>Check out these new Burgers !</h1>
+<h1>🍔 Check out these new Burgers ! 🍔</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -83,6 +78,16 @@ function Cards() {
           
         </div>
       </div>
+        <div className='News-Text'>
+          <h1>Explore our most recent updates and stay informed with our latest news!</h1>
+          </div>
+        <div className='News'>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02SHrNksSCfPudAbc3hPjG2aay1N9QKTn3XcmzmSQ48qSFCQA1KTJaM6JMB6qBReyil%26id%3D100075875232574&show_text=true&width=500"  frameBorder="0" allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" className='news-padding' title='news-1'></iframe>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02rFDtoDB1Ntjg5Ad5LfDHMuPkc9gGpEMDukBenKK5t9cMRoee8NFBtUaQzu32GAGil%26id%3D100075875232574&show_text=true&width=500"  frameBorder="0" allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" className='news-padding' title='news-2'></iframe>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02myejozhjsw5bywSRGzSVn6JKWDZiqkRLDYVWCiWiTZLyeMbs29n3vaeSkCs6eUA5l%26id%3D100075875232574&show_text=true&width=500"  frameBorder="0" allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" className='news-padding' title='news-3'></iframe>
+
+        </div>
+     
     </div>
   );
 }

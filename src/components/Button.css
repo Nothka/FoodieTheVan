@@ -28,6 +28,12 @@
   .btn--small {
     padding: 4px 14px;
     font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: var(--secondary);
   }
 
   .btn--medium {
@@ -50,6 +56,9 @@
     transition: 250ms;
   }
 
+
+
+  
 
 
 

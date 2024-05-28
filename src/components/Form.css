@@ -1,4 +1,5 @@
 .form-container {
+  z-index: 0;
     padding: 10rem;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
     position: relative;
@@ -6,8 +7,10 @@
     justify-content: center;
     background-size: cover;
     background-position: center;
-    background-image: url('https://scontent.ftsr1-1.fna.fbcdn.net/v/t39.30808-6/392749709_340612028477969_7039736014540575980_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=783fdb&_nc_ohc=u4StlqdbVRYAX9SmRhr&_nc_ht=scontent.ftsr1-1.fna&oh=00_AfCnVfcViB9VYX8eTCA8qDhN9DOm82TpvGJrEopwsBzuwg&oe=6584DD08');
+    background-image: url('https://scontent.ftsr1-1.fna.fbcdn.net/v/t39.30808-6/392749709_340612028477969_7039736014540575980_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=783fdb&_nc_eui2=AeFntz-M0xBBFzf0744zjTDBa6H8I0WzoHhrofwjRbOgeCLjJVnL6FPbq2ElzkLETV-sgXoY0tl24hCbYImDUxLD&_nc_ohc=WC5R-RMssEQAX_gAo2A&_nc_ht=scontent.ftsr1-1.fna&oh=00_AfAIlTZWJB-pdGg-058Z9o__Ot9ooynW1_Pq3O9mUyelRA&oe=658ACBC8');
   }
+
+ 
   
   
   .form-success {
@@ -29,6 +32,39 @@
     background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
   }
+
+
+  .form-content-right {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gif-container {
+   
+    top: 0;
+    left: 0;
+   
+    pointer-events: none;
+  }
+  
+  .gif-container iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-success {
+    position: relative;
+    color: #fff;
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+  
   
   .form {
     height: 100%;

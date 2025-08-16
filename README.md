@@ -2,10 +2,6 @@
 
 **Foodie The Van** is a modern website for a food truck, offering an attractive design, menu and location information, as well as the possibility to get in touch with the team.
 
-## 🌟 Demo
-
-🔗 [Visit Foodie The Van](https://foodiethevan.netlify.app/)
-
 ## 🚀 Technologies Used
 
 - **React.js** – JavaScript framework for the user interface  

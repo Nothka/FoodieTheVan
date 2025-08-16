@@ -1,59 +1,58 @@
 # Foodie The Van
 
-Foodie The Van este un website modern pentru un food truck, oferind un design atractiv, informații despre meniuri și locații, precum și posibilitatea de a intra în contact cu echipa.
+**Foodie The Van** is a modern website for a food truck, offering an attractive design, menu and location information, as well as the possibility to get in touch with the team.
 
 ## 🌟 Demo
 
-🔗 [Accesează Foodie The Van](https://foodiethevan.netlify.app/)
+🔗 [Visit Foodie The Van](https://foodiethevan.netlify.app/)
 
-## 🚀 Tehnologii utilizate
+## 🚀 Technologies Used
 
-- **React.js** – Framework JavaScript pentru interfața de utilizator
-- **Tailwind CSS** – Framework CSS pentru stilizare rapidă și responsivitate
-- **React Router** – Gestionarea rutelor în aplicație
-- **Netlify** – Hosting pentru website
+- **React.js** – JavaScript framework for the user interface  
+- **Tailwind CSS** – CSS framework for fast styling and responsiveness  
+- **React Router** – Routing management in the application  
+- **Netlify** – Hosting for the website  
 
-## 🛠️ Instalare și rulare locală
+## 🛠️ Installation & Local Setup
 
-Dacă vrei să rulezi proiectul local, urmează acești pași:
+If you want to run the project locally, follow these steps:
 
-1. Clonează repository-ul:
+1. Clone the repository:
    ```bash
    git clone https://github.com/user/foodie-the-van.git
    ```
-2. Intră în folderul proiectului:
+2. Go into the project folder:
    ```bash
    cd foodie-the-van
    ```
-3. Instalează dependențele:
+3. Install dependencies:
    ```bash
    npm install
    ```
-4. Rulează proiectul:
+4. Run the project:
    ```bash
    npm start
    ```
-5. Accesează aplicația în browser la `http://localhost:3000`
+5. Open the app in your browser at `http://localhost:3000`
 
-## 📸 Capturi de ecran
+## 📸 Screenshots
 
-(Adaugă aici screenshot-uri relevante cu website-ul)
+(Add relevant screenshots of the website here)
 
-## 📌 Funcționalități
+## 📌 Features
 
-- Design modern și responsiv
-- Pagini despre meniuri, locații și contact
-- Navigare rapidă între pagini cu React Router
+- Modern and responsive design  
+- Pages for menus, locations, and contact  
+- Fast navigation between pages using React Router  
 
-## 🤝 Contribuție
+## 🤝 Contributing
 
-Dacă vrei să contribui, fork-uiește repository-ul și creează un pull request cu modificările tale!
+If you’d like to contribute, fork the repository and create a pull request with your changes!
 
 ## 📩 Contact
 
-Pentru întrebări sau sugestii, mă poți contacta la lucaciangelo@gmail.com.
+For questions or suggestions, you can contact me at **lucaciangelo@gmail.com**.
 
 ---
 
-🚚 *Foodie The Van - Mâncare delicioasă oriunde te afli!*
-
+🚚 *Foodie The Van – Delicious food wherever you are!*  
